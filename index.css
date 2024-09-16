@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+    /* border:1px solid red */
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 50%;
+}
+.two{
+    width: 50%;
+}
+.two #myForm{
+    display: flex;
+    flex-direction: column;
+}
+.two h1{
+    font-size: 30px;
+    text-align: center;
+    color: #a257e8;
+    text-decoration: underline 4px solid gold;
+}
+#myForm label{
+    color: rgb(94, 94, 225);
+    margin-top: 2%;
+}
+input[type="text"],[type="email"],[type="password"]{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px grey;
+    padding: 1%;
+    margin-bottom: 1%;
+    width: 90%;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+}
+input[type="checkbox"]{
+    accent-color: green;
+    margin-right: 2%;
+}
+.btn{
+    width:90%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(155, 61, 243, 0.669);
+    border: 1.5px solid #2c2cacd2;
+    margin-bottom: 2%;
+}
+
+.btn:hover{
+    color: #a257e8;
+    background-color: white;
+    border: 1.5px solid burlywood;
+
+}
+
+hr {
+    width: 90%;
+}
+h6{
+    text-align: center;
+    font-size: 14px;
+}
+h6 a{
+    text-decoration: none;
+    color: #57dfdf;
+}
